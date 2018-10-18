@@ -5,6 +5,5 @@ from .models import Pessoas, Venda, Produto
 
 
 admin.site.register(Pessoas)
-"""admin.site.register(Documento)"""
 admin.site.register(Venda)
 admin.site.register(Produto)
