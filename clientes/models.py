@@ -12,7 +12,7 @@ class Pessoas(models.Model):
         return self.nome + ' ' + self.sobrenome
 
 
-class Produto(models.Model):
+"""class Produto(models.Model):
   descricao = models.CharField(max_length=100)
   preco = models.DecimalField(max_digits=5, decimal_places=2)
 
@@ -28,4 +28,4 @@ class Venda(models.Model):
   produtos = models.ManyToManyField(Produto, blank=True)
 
   def __str__(self):
-      return self.numero
+      return self.numero"""
